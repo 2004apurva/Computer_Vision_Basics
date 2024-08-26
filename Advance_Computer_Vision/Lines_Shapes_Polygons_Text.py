@@ -16,11 +16,6 @@ cv2.circle(canvas,(250,250),10,(255,0,0),3)
 
 # Drawing Arrow lines
 cv2.arrowedLine(canvas,(400,400),(400,500),(255,255,255),tipLength=0.3)
-
-
-
-
-
 cv2.imshow("winname",canvas)
 cv2.waitKey(20000)
 
